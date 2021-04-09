@@ -62,8 +62,29 @@
     position: absolute;
     top: 15px;
     left: 20px;
-    background-color: rgba(20, 16, 16, 0.397);
-    color: white;
+
+    background-color: #ffffff; /*rgba(20, 16, 16, 0.397); o erro tava aqui*/ 
+    /* background-color é a cor do fundo do botão*/
+    /*ele tava em rgb, eu recomendo usar HEX, 
+    pesquisa que vc vai descobrir o que é, só pegar a cor em HEX no Google,*/
+
+    /*
+      #ffffff  =  branco
+      #000000  =  preto 
+
+      #RRGGBB é a ordem de coloração, onde R(red), G(green), b(blue)
+
+      #ff0000  =  R.ed
+      #00ff00  =  G.reen
+      #0000ff  =  B.lue  
+
+
+      deixei uma configuração de cor aí como exemplo, agr é só mudar como quise*/
+
+    color: #0099aa; /* color é a cor de dentro do botão*/
+    /*só isso, de nada Demi Lovato kkk, vlw Nay
+    apaga esses comentários aqui dps, antes de colocar o código final*/
+
     border-radius: 5px;
     cursor: pointer;
 }
