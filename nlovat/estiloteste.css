@@ -1,0 +1,95 @@
+* 
+{
+    margin: 0;
+    font-family: arial;
+    padding: 0;
+}
+.menuLateral 
+{
+    background-color: black;
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    left: -250px;
+    transition: left 0.5s;
+}
+.menuLateral .titulo {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    line-height: 45px;
+    font-size: 24px;
+    border-bottom: 2px solid lightblue;
+}
+.menuLateral ul {
+    list-style: none;
+}
+.menuLateral ul li {
+    line-height: 40px;
+    border-bottom: 1px solid white;
+}
+.menuLateral ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 30px;
+    font-weight: bold;
+    display: block;
+    }
+.menuLateral ul li a:hover {
+    background-color: lightblue;
+    transition: 0.5s;
+}
+.menuLateral ul ul li a {
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 60px;
+    background-color: black;
+}
+.menuLateral ul ul {
+    display: none;
+}
+.menuLateral ul .itensjogos.mostra {
+    display: block;
+}
+.menuLateral ul .itensprodutos.mostra {
+    display: block;
+}
+.menuLateral ul .itensperfil.mostra {
+    display: block;
+}
+.btnabre {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    background-color: rgba(20, 16, 16, 0.397);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btnabre span {
+    font-size: 35px;
+}
+.menuLateral.mostra {
+    left: 0;
+}
+.btnfecha {
+    position: relative;
+    left: -20px;
+    top: 3;
+    border: 1px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.btnfecha:hover {
+    border: 1px solid red;
+}
+.menuLateral ul li a span {
+    font-size: 30px;
+    position: absolute;
+    right: 25px;
+    transition: 0.4s;
+}
+.menuLateral ul li a span.gira {
+    transform: rotate(180deg);
+}
